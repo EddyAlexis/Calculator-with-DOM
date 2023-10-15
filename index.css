@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: rgb(68, 43, 212);
+    width: 30%;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius:5px ;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.card h1{
+    color: yellow;
+    font-weight: bold;
+}
+
+.card input{
+    width: 100%;
+    margin: 10px  0px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card button{
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card button:hover{
+    cursor: pointer;
+    background-color: rgba(22, 4, 4, 0.795);
+    color: white;
+    font-weight: bold;
+
+}
